@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Chat Bubble -->
+    <path
+        android:pathData="M34,26 C27.37,26 22,31.37 22,38 L22,54 C22,60.63 27.37,66 34,66 L42,66 L42,76 L54,66 L74,66 C80.63,66 86,60.63 86,54 L86,38 C86,31.37 80.63,26 74,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="26"
+                android:endX="86"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF8B5CF6" />
+                <item android:offset="1.0" android:color="#FF06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- QR pixel elements inside chat bubble -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,34 h10 v10 h-10 z M36,36 h6 v6 h-6 z M64,34 h10 v10 h-10 z M66,36 h6 v6 h-6 z M34,48 h10 v10 h-10 z M36,50 h6 v6 h-6 z M50,34 h8 v8 h-8 z M50,46 h12 v4 h-12 z M64,48 h10 v10 h-10 z" />
+</vector>

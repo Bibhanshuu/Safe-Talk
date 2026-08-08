@@ -1,0 +1,6 @@
+{
+  "name": "P2P Peer Chat",
+  "description": "Silent anonymous peer-to-peer real-time chat powered by Firebase Auth, Firestore, and temporary session IDs with QR pairing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
